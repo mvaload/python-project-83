@@ -7,3 +7,11 @@ dev:
 	poetry run flask --app page_analyzer:app run
 lint:
 	poetry run flake8 page_analyzer
+docker-build:
+	docker-compose up -d --build
+docker-up:
+	docker-compose up -d
+docker-stop:
+	docker-compose stop
+docker-down:
+	docker-compose down

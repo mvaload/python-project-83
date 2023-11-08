@@ -14,7 +14,7 @@ __pycache__
 *.coverage
 
 #ignore .env
-*.env
+.env
 
 #ignore .idea pycharm
 .idea/
